@@ -12,8 +12,7 @@ def get_int():
         except ValueError:
             print("n is not an integer: ")
         else:
-            break
-    return n
+            return n
 
 
 main()
